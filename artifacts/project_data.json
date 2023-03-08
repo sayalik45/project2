@@ -1,0 +1,1 @@
+{"columns": ["Present_Price", "Kms_Driven", "Fuel_Type", "Seller_Type", "Transmission", "Owner"], "Fuel_Type": {"Petrol": 0, "Diesel": 1, "CNG": 2}, "Seller_Type": {"Dealer": 0, "Individual": 1}, "Transmission": {"Manual": 0, "Automatic": 1}}

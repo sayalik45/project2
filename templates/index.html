@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR SELLING PRICE PREDICTION </title>
+</head>
+<body style="background-color: beige;">
+    <h1>Selling Price Prediction</h1>
+
+
+    <form action="/get_data" method="post">
+        
+        <label>Present_Price:</label> <input type = "number" step="0.001" name = "html_Present_Price"> <br><br>
+        <label>Kms_Driven:</label> <input type = 'number' name = 'html_Kms_Driven'> <br><br>
+        <label>Fuel_Type:</label> <input type = 'text' name = 'html_Fuel_Type'> <br><br>
+        <label>Seller_Type:</label> <input type="text" name = 'html_Seller_Type'> <br><br>
+        <label>Transmission:</label> <input type = "text" name = 'html_Transmission'> <br><br>
+        <label>Owner:</label> <input type = 'number' name = "html_Owner"> <br><br>
+       
+    
+
+        
+            
+        </select> <br><br>
+
+        <input type="submit" value="CAR SELLING PRICE PREDICTION">
+
+
+    </form><br>
+    <label>Predicted result : </label>{{prediction}}
